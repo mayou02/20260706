@@ -16,6 +16,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 32pt;
     font-weight: bold;
+    color: #000000;
 }
 
 .title p {
@@ -114,21 +115,22 @@
     margin-top: 100px;
 }
 .menu-list {
-    display: flex;
+    width: 930px;
+    max-width: 90%;
+    margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
-    overflow: scroll;
 }
 .menu-list li {
-    flex-shrink: 0;
-    width: 260px;
-    margin-right: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
     list-style: none;
 }
 .menu-list li img {
     width: 260px;
     height: 220px;
     object-fit: cover;
+    flex-shrink: 0;
+    margin-right: 30px;
 }
