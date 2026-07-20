@@ -113,8 +113,22 @@
 .footer {
     margin-top: 100px;
 }
+.menu-list {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: scroll;
+}
+.menu-list li {
+    flex-shrink: 0;
+    width: 260px;
+    margin-right: 20px;
+    list-style: none;
+}
 .menu-list li img {
-    width: 100%;
+    width: 260px;
     height: 220px;
     object-fit: cover;
 }
